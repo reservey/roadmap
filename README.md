@@ -1,47 +1,48 @@
-# Roadmap for Reservey
+# Reservey Roadmap 
 
-Welcome to the Reservey Roadmap! This document provides an overview of our product development plans and outlines the key phases and features we're working on.
+Bem-vindo ao Roadmap Reservey!
 
-## Reservey Public Roadmap
+Este documento fornece uma visão geral dos nossos planos de desenvolvimento de produtos e destaca as principais fases e recursos nos quais estamos trabalhando.
 
-🔗 View the official Reservey public product roadmap [here](https://github.com/orgs/reservey/projects/1).
+## Roadmap Público do Reservey
+🔗 [Veja o Roadmap oficial do Reservey aqui](https://github.com/orgs/reservey/projects/1).
 
-Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Share your feedback via Reservey public feedback discussions.
+Nosso roadmap de produtos é onde você pode aprender sobre quais recursos estamos trabalhando, em que estágio eles se encontram e quando esperamos disponibilizá-los para você. Tem alguma pergunta ou comentário sobre os itens no roadmap? Compartilhe seus comentários por meio das discussões públicas de feedback do Reservey.
 
-The roadmap repository is for communicating Reservey’s roadmap. Existing issues are currently read-only, and we are locking conversations, as we get started. Interaction limits are also in place to ensure issues originate from Reservey. We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of Reservey products and features. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through general feedback in Reservey public feedback discussions.
+O repositório do roadmap é para comunicar o roadmap da Reservey. Os problemas existentes estão atualmente em modo somente leitura, e estamos bloqueando conversas, à medida que começamos. Limites de interação também estão em vigor para garantir que os problemas originem-se da Reservey. 
 
-## Guide to the Roadmap
+Estamos planejando iterar sobre o formato do próprio roadmap e vemos potencial para nos envolvermos mais em discussões sobre o futuro dos produtos e recursos da Reservey. Se você tiver feedback sobre este repositório de roadmap em si, como a forma como os problemas são apresentados, nos informe por meio do feedback geral nas discussões públicas de feedback do Reservey.
 
-Every item on the roadmap is an issue, with labels that indicate the following:
+## Guia para o Roadmap
+Cada item no roadmap é um problema, com etiquetas que indicam o seguinte:
 
-- **Release Phase:** Describes the next expected phase of the roadmap item. See below for a guide to release phases.
-- **Feature Area:** Indicates the area of the product to which the item belongs.
-- **Feature:** Indicates the feature or product to which the item belongs.
-- **Deployment Models:** Indicates whether the feature will be available in the cloud, server, and/or GHAE (Reservey Actions Environment).
+- **Fase de Lançamento:** Descreve a próxima fase esperada do item do roadmap. Veja abaixo um guia para as fases de lançamento.
+- **Área de Recursos:** Indica a área do produto à qual o item pertence.
+- **Recurso:** Indica o recurso ou produto ao qual o item pertence.
+- **Modelos de Implantação:** Indica se o recurso estará disponível na nuvem, no servidor e/ou no GHAE (Ambiente de Ações da Reservey).
 
-Once a feature is delivered, the "shipped" label will be applied to the roadmap issue, and the issue will be closed with a comment linking to the relevant Changelog post.
+Assim que um recurso for entregue, a etiqueta "entregue" será aplicada ao problema do roadmap, e o problema será fechado com um comentário vinculando à postagem relevante no Registro de Alterações.
 
-### Release Phases
+## Fases de Lançamento
+As fases de lançamento indicam as etapas pelas quais o produto ou recurso passa, desde os testes iniciais até a disponibilidade geral:
 
-Release phases indicate the stages that the product or feature goes through, from early testing to general availability:
+- **alpha:** Principalmente para testes e feedback
+  - Disponibilidade limitada, requer acordo de pré-lançamento.
+  - Recursos ainda em desenvolvimento intenso e sujeitos a alterações.
+  - Não é para uso em produção, e nenhuma documentação, SLAs ou suporte são fornecidos.
+  
+- **beta:** Publicamente disponível em capacidade total ou limitada
+  - Recursos em grande parte completos e documentados.
+  - Prazos e requisitos para GA geralmente são publicados.
+  - Nenhum SLA ou suporte é fornecido.
 
-- **alpha:** Primarily for testing and feedback
-  - Limited availability, requires pre-release agreement.
-  - Features still under heavy development and subject to change.
-  - Not for production use, and no documentation, SLAs, or support provided.
+- **ga:** Geralmente disponível para todos os clientes
+  - Pronto para uso em produção com obrigações associadas de SLA e suporte técnico.
+  - Aproximadamente de 1 a 2 trimestres após o Beta.
 
-- **beta:** Publicly available in full or limited capacity
-  - Features mostly complete and documented.
-  - Timeline and requirements for GA usually published.
-  - No SLAs or support provided.
+Alguns de nossos recursos ainda podem estar em estágios exploratórios e não têm um cronograma disponível. Eles estão incluídos no roadmap apenas para feedback inicial. Eles são marcados da seguinte forma:
 
-- **ga:** Generally available to all customers
-  - Ready for production use with associated SLA and technical support obligations.
-  - Approximately 1-2 quarters from Beta.
+- **in design:** Recurso na fase de descoberta. Decidimos construir este recurso, mas ainda estamos descobrindo como fazê-lo.
+- **explorando:** Recurso em consideração. Estamos considerando construir este recurso e coletar feedback sobre ele.
 
-Some of our features may still be in the exploratory stages and have no timeframe available. These are included in the roadmap only for early feedback. They are marked as follows:
-
-- **in design:** Feature in the discovery phase. We have decided to build this feature but are still figuring out how.
-- **exploring:** Feature under consideration. We are considering building this feature and gathering feedback on it.
-
-Thank you for your interest in Reservey's development. We value your feedback and look forward to delivering new and exciting features to enhance your experience!
+Agradecemos pelo seu interesse no desenvolvimento da Reservey. Valorizamos seus comentários e esperamos disponibilizar novos e empolgantes recursos para aprimorar sua experiência!
