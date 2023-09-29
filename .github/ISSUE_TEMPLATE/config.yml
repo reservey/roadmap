@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Reservey Feedback
+  - name: Enviar feedbacks
     url: https://github.com/orgs/reservey/discussions
     about: Compartilhe seu feedback com a equipe do Reservey.
+  - name: Relatar problemas técnicos
+    url: https://github.com/orgs/reservey/issues
+    about: Relate problemas técnicos ou bugs que você encontrar.
+  - name: Solicitar novos recursos
+    url: https://github.com/orgs/reservey/issues/new
+    about: Faça sugestões ou solicite novos recursos para o Reservey.
